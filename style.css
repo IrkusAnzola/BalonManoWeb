@@ -1191,12 +1191,17 @@ fieldset button {
 
 
 
-@media screen and (max-width: 1149px) {
-    #izenburua{
-        color: black;
+
+@media screen and (max-width: 880px) {
+    .footer-left h3{
+        color: #000000;
     
     }
-}
+    .footer-distributed h3 span{
+        color: rgb(0, 0, 0);
+    }
+} 
+
 
 @media screen and (max-width: 600px) {
     #izenburua{
