@@ -1187,7 +1187,7 @@ fieldset button {
 
 @media screen and (max-width: 600px) {
     #izenburua{
-        margin-left: 2%;
+        color: black;
     }
 
     .berritxikiak {
