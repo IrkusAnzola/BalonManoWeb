@@ -291,7 +291,7 @@ input[type=checkbox],
 }
 
 .footer-distributed .footer-company-name {
-    color: rgba(255, 70, 140, 1);
+    color: black;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
@@ -547,7 +547,7 @@ input[type=checkbox],
 
 #link{
     text-decoration: none;
-    color: #ff468c;
+    color: blue;
     font-weight: bold;
 
 }
@@ -851,7 +851,7 @@ fieldset button {
     margin: 0 auto;
     width: 80%;
     box-shadow: 30px 15px rgb(207, 207, 207);
-
+    flex-wrap: wrap;
 }
 
 .dena table, th, td{
@@ -875,6 +875,7 @@ fieldset button {
 
 #taldea{
     width: 12%;
+
 }
 
 #luzeera{
@@ -887,7 +888,10 @@ fieldset button {
     text-align: center;
     margin:auto;
     display:block;
+    float: left;
 }
+
+
 
 .grisa{
     background-color: rgb(236, 236, 236);
