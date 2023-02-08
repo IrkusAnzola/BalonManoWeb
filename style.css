@@ -851,12 +851,14 @@ fieldset button {
     margin: 0 auto;
     width: 80%;
     box-shadow: 30px 15px rgb(207, 207, 207);
-    flex-wrap: wrap;
+   
 }
 
 .dena table, th, td{
     padding: 8px;
-    border: solid 1px ;  
+    border: solid 1px ; 
+    /* display: flex;
+    flex-direction: row; */ 
 }
 
 .dena table{
@@ -875,8 +877,14 @@ fieldset button {
 
 #taldea{
     width: 12%;
+    text-align: center;
 
 }
+
+#taldea p {
+    padding-top: 6%;
+}
+
 
 #luzeera{
     width: 4%;
@@ -1178,7 +1186,10 @@ fieldset button {
 
 
 @media screen and (max-width: 600px) {
-    
+    #izenburua{
+        margin-left: 2%;
+    }
+
     .berritxikiak {
         width: 80%;
         display: flex;
@@ -1220,6 +1231,7 @@ fieldset button {
 
     .dena table{
         box-shadow: none;
+
     }
 
     .berritxikiak img{
