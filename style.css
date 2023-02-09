@@ -907,7 +907,6 @@ fieldset button {
     
 .emaitza{
     margin-bottom: 50px;
-    margin-left: 4%;
 }
 
 
@@ -982,6 +981,10 @@ fieldset button {
 
 
 @media only screen and (max-width: 600px) {
+    .emaitza{
+        margin-left: 5%;
+    }
+    
     .elkar img{
         width: 80%;
         height: 190px;
