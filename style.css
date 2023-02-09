@@ -866,7 +866,7 @@ fieldset button {
 }
 
 #postua{
-    width: 4%;
+    width: 0.1%;
 }
 
 #postua{
@@ -875,7 +875,7 @@ fieldset button {
 }
 
 #taldea{
-    width: 12%;
+    width: 0.2%;
     text-align: center;
 
 }
@@ -889,16 +889,12 @@ fieldset button {
 }
 
 #luzeera{
-    width: 4%;
     text-align: center;
 }
 
 .dena table img{
     height: 50px;
     text-align: center;
-    margin:auto;
-    display:block;
-    float: left;
 }
 
 .grisa{
