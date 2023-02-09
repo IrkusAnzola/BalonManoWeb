@@ -16,6 +16,14 @@ body {
 
 /* -----------------------------HEADER------------------------------------ */
 
+header {
+    height: 120px;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 13%, rgba(255, 70, 140, 1) 85%);
+    margin-bottom: 50px;
+}
+
 .denna{
     justify-content: center;
     display: flex;
@@ -30,15 +38,6 @@ header img {
 .logoetaizenburua {
     display: flex;
     align-items: center;
-}
-
-header {
-    justify-content: center;
-    margin-top: -37px;
-    width: 100%;
-    display: table;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 13%, rgba(255, 70, 140, 1) 85%);
-    margin-bottom: 50px;
 }
 
 #izenburua {
