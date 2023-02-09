@@ -979,6 +979,11 @@ fieldset button {
 }
 }
 
+@media only screen and (max-width: 400px) {
+    .emaitza{
+        margin-left: 5%;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .emaitza{
