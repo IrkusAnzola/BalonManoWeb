@@ -415,62 +415,44 @@ input[type=checkbox],
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 1em;
-}
-
-
-/* hover styles */
-.location-listing {
-    position: relative;
-}
-
-.location-image {
-    line-height: 0;
-    overflow: hidden;
-    border-radius: 15px;
-
-
-}
-
-.location-image img {
-    filter: blur(0px);
-    transition: filter 0.3s ease-in;
-    transform: scale(1.1);
-
-
-}
-
-.location-title {
-    font-size: 1.5em;
-    font-weight: bold;
-    text-decoration: none;
-    z-index: 1;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    border-radius: 15px;
-    transition: opacity .5s;
-    background: rgba(255, 97, 210, 0.4);
-    color: white;
-
-
-    display: flex;
-    align-items: center;
     justify-content: center;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-gap: 5px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 1215px) {
+    .grid-container {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 170px 170px 170px ;
+        grid-gap: 5px;
+        justify-items: center;
+        align-items: center;
+    }
+    .argazkiak img{
+        height: 150px;
+    }
 }
 
-.location-listing:hover .location-title {
-    opacity: 1;
+  @media only screen and (max-width: 600px) {
+    .grid-container {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 170px 170px ;
+        grid-gap: 5px;
+        justify-items: center;
+        align-items: center;
+    }
+    .argazkiak img{
+        height: 150px;
+    }
 }
 
-.location-listing:hover .location-image img {
-    filter: blur(2px);
-}
+
+
 
 /* ---------------------ERREGISTRO ETA KONTAKTUA------------------------------------------ */
 
@@ -737,6 +719,9 @@ fieldset button {
     display: flex;
     flex-wrap: wrap;
 }
+
+
+
 
 
 
@@ -1156,17 +1141,6 @@ fieldset button {
 }
 
 
-@media (hover: none) {
-    .location-title {
-        opacity: 1;
-    }
-
-    .location-image img {
-        filter: blur(2px);
-    }
-
-}
-
 
 @media (max-width: 600px) {
     .container {
@@ -1239,24 +1213,6 @@ fieldset button {
         width: 70%;
     }
    
-    .grid-container{
-        margin-left: -50px;
-        
-    }
-    .location-title{
-        background: none;
-
-    }
-    .kontaktuatext{
-        flex-wrap: wrap;
-    }
-    .informazioa article{
-        box-shadow: none;
-    }
-    .informazioa article iframe{
-        width: 300px;
-
-    }
 
 }
 
