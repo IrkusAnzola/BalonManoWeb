@@ -423,6 +423,10 @@ input[type=checkbox],
     align-items: center;
   }
 
+  .argazkiak img{
+    border-radius: 25px;
+  }
+
   @media only screen and (max-width: 1215px) {
     .grid-container {
         justify-content: center;
