@@ -954,6 +954,7 @@ fieldset button {
 
 /* --------------------------Media Query-ak------------------ */
 
+
 @media only screen and (max-width: 1150px) {
     #izenburua{
         color: #000000;
@@ -965,13 +966,31 @@ fieldset button {
     width: 100%;
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 13%, rgba(255, 70, 140, 1) 85%);
     margin-bottom: 50px;
-}
+    }
 }
 
 @media only screen and (max-width: 400px) {
     .emaitza{
         margin-left: 5%;
     }
+    .kontaktuatext article{
+        width: 80%;
+    }
+    .kontaktuatext iframe{
+        width: 100%;
+    }
+   
+}
+
+
+@media only screen and (max-width: 663px) {
+    .kontaktuatext article{
+        width: 80%;
+    }
+    .kontaktuatext iframe{
+        width: 100%;
+    }
+   
 }
 
 @media only screen and (max-width: 600px) {
@@ -1185,8 +1204,6 @@ fieldset button {
 }
 
 
-
-
 @media screen and (max-width: 880px) {
     .footer-left h3{
         color: #000000;
@@ -1220,6 +1237,17 @@ fieldset button {
 
 }
 
+
+@media (max-width: 1049px) {
+   
+    .kontaktuatext{
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
 @media (max-width: 850px) {
    
     header{
@@ -1247,10 +1275,6 @@ fieldset button {
     .kontaktuatext{
         flex-wrap: wrap;
     }
-
-    .informazioa iframe{
-        width: 500px;
-    }
+    
 
 }
-
